@@ -114,3 +114,7 @@ irecovery -f kernelcache.release.n88
 timeout /t 5 >NUL
 echo Booting kernelcache to start ssh service
 irecovery -c bootx
+echo.
+echo.
+echo To get ssh access from here, cd into C:/JBWork and run "itunnel_mux --lport 2022". Then, ssh root@127.0.0.1 with the password "alpine" using your favorite ssh client. Now run "mount.sh", and enjoy.
+pause
