@@ -1,0 +1,13 @@
+{
+    "patches":
+    [
+        {
+            "patternBytes": "04 06 0e ab 29 46 32 46 ff f7 cc fd 00 21 00 28 0c 91 14 d0",
+            "patchBytes": "00 20 18 60",
+            "patchOffset": "8",
+            "secondMatchCorrelation": "0.5941245555877686",
+            "adjustedSecondMatchCorrelation": "0.5216111640782641",
+            "comment": "Original offset: 5890"
+        }
+    ]
+}
